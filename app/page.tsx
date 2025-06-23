@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import MainActivity from "./components/Main-activity";
 import Informations from "./components/Informations";
+import CarouselComponent from "./components/CarouselComponent";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         </section>
         <MainActivity />
         <Informations />
+        <CarouselComponent />
         <Footer />
       </main>
     </div>

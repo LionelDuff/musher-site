@@ -49,6 +49,7 @@ export default function Informations() {
               target="_blank"
             >
               <Image
+                className="dark:invert"
                 width={30}
                 height={30}
                 alt="Facebook logo"
@@ -60,6 +61,7 @@ export default function Informations() {
               target="_blank"
             >
               <Image
+                className="dark:invert"
                 width={30}
                 height={30}
                 alt="Instagram logo"
